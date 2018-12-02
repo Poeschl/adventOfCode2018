@@ -25,7 +25,7 @@ fun calcFrequency(inputFile: File, startFrequency: Int): Int {
 
 fun findDoupledFrequency(inputFile: File, startFrequency: Int): Int {
     var frequency = startFrequency
-    val visitedFrequencies = mutableListOf<Int>()
+    val visitedFrequencies = mutableListOf(startFrequency)
     var doubleFreq: Int? = null
 
     do {
