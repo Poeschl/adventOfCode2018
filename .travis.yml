@@ -12,5 +12,8 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
+install:
+  - chmod +x gradlew
+
 script:
   - ./gradlew check
